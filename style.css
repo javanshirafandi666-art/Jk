@@ -29,13 +29,25 @@ h1{font-size:2.4rem;margin-bottom:10px}
   border-radius:14px;
   margin-bottom:40px;
 }
-.card img{
-  width:100%;
-  border-radius:12px;
-  margin-bottom:15px;
+.card {
+  background: #111;
+  padding: 22px;
+  border-radius: 14px;
+  margin-bottom: 40px;
+
+  display: flex;
+  flex-direction: column; /* şəkil yuxarı, yazı aşağı */
 }
-.card p{
-  font-size:1.15rem;
-  line-height:1.7;
+
+.card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 18px;
+  display: block;
 }
-.blur{filter:blur(5px)}
+
+.card p {
+  font-size: 22px;   /* böyük və oxunaqlı */
+  line-height: 1.7;
+  color: #eee;
+}
